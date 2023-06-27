@@ -17,7 +17,7 @@ export default class SearchForm extends Component {
     e.preventDefault();
 
     if (this.state.value.trim() === '') {
-      return toast.error('Вы ничего не ввели');
+      return toast.error('You have not entered anything');
     }
 
     this.props.onSubmit(this.state);
