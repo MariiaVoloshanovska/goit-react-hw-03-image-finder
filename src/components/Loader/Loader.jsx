@@ -4,7 +4,7 @@ import PulseLoader from 'react-spinners/PulseLoader';
 
 const override = css`
   display: block;
-  margin: 0 auto;
+
   margin-top: 20px;
 `;
 
