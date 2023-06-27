@@ -12,7 +12,7 @@ import Modal from './Modal/Modal';
 import 'react-toastify/dist/ReactToastify.css';
 import 'index.css';
 
-export class App extends Component {
+export default class App extends Component {
   state = {
     inputValue: '',
     gallery: [],
